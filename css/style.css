@@ -6,6 +6,7 @@
 }
 
 body{
+    color: rgb(110, 0, 61);
     text-align: center;
     background-image: url(../img/sakura_pattern.jpg);
     font-size: 26px;
@@ -17,12 +18,40 @@ body{
     height: 300px;
 }
 
+.food_pic{
+    width: 700px;
+    height: auto;
+}
+
 ol{
     list-style-position: inside;
     font-size: 26px;
+    line-height: 1.6;
+}
+
+ul{
+    list-style-position: inside;
+    font-size: 26px;
+    list-style-type: circle;
+    line-height: 1.6;
 }
 
 h4{
     color: gray;
     font-size: 14px;
+}
+
+.ingredients
+.directions{
+    text-align: left;
+    list-style-position: inside;
+}
+
+a{
+    color: rgb(206, 0, 113);
+}
+
+.return{
+    color: black;
+    font-size: 26px;
 }
