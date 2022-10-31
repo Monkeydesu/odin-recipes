@@ -1,4 +1,28 @@
-.cute_sushi{
-    width: 350px;
+
+.container{
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body{
+    text-align: center;
+    background-image: url(../img/sakura_pattern.jpg);
+    font-size: 26px;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.cute_sushi{    
+    width: 360px;
     height: 300px;
+}
+
+ol{
+    list-style-position: inside;
+    font-size: 26px;
+}
+
+h4{
+    color: gray;
+    font-size: 14px;
 }
